@@ -2,7 +2,7 @@
 
 Hello, my name is Kolua and I'm a student.
 
-INFO: 
+INFO:/n
 This repository consists .exe file, 2 .dll files and 1 cascade classifier file( .xml).  
 This program allows you to detect cars in an image or video. The program is implemented in the C++ programming language using the OpenCV library. The graphical shell is made using Windows Forms.  
 
