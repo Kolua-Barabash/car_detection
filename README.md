@@ -8,7 +8,7 @@
 
 КАК ПОЛЬЗОВАТЬСЯ:  
 Загрузите все фалы.  
-Скачайте два .dll файла: opencv_world310.dll, opencv_ffmpeg310_64.dll.  Скачать можно по ссылке https://drive.google.com/drive/folders/0B_fePdNZl0eSTkJaNlVVMng2V0k   или же с официального сайта OpenCV http://opencv.org/
+Скачайте два .dll файла: opencv_world310.dll, opencv_ffmpeg310_64.dll.  Скачать можно по ссылке https://drive.google.com/drive/folders/0B_fePdNZl0eSTkJaNlVVMng2V0k   или же с официального сайта OpenCV http://opencv.org/  
 Соберите все файлы в одну папку.   
 Зупустите приложение.  
 
