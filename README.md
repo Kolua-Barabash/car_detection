@@ -1,17 +1,19 @@
 # car_detection
+Всем привет, меня зовут Коля и я студент.
 
-Hello, my name is Kolua and I'm a student.
+ОБЩАЯ ИНФОРМАЦИЯ:  
+Данный репозиторий содержит два файла: .exe - программа, .xml - каскадный классификатор.
+Данная программа позволяет детектировать автомобили на изображении, а также видео. Программа была реализована на языке C++ с использованием библиотеки OpenCV версии 3.1.0. Графическая оболочка была сделана при помощи Windows Forms.  
+Приложение было протестировано на Windows 7/8.1/10 (x64) и работало корректно.
 
-INFO:  
-This repository consists .exe file, 2 .dll files and 1 cascade classifier file( .xml).  
-This program allows you to detect cars in an image or video. The program is implemented in the C++ programming language using the OpenCV library. The graphical shell is made using Windows Forms.  
+КАК ПОЛЬЗОВАТЬСЯ:  
+Загрузите все фалы.
+Скачайте два .dll файла: opencv_world310.dll, opencv_ffmpeg310_64.dll. Скачать можно по ссылке https://drive.google.com/drive/folders/0B_fePdNZl0eSTkJaNlVVMng2V0k   или же с официального сайта OpenCV http://opencv.org/
+Соберите все файлы в одну папку.  
+Зупустите приложение.  
 
-USAGE:  
-Download all files.  
-Keep all the files in a single folder location.  
-Run the application.  
-
-RESULTS:  
-The results are truely based on the test images provided by the database: http://cogcomp.cs.illinois.edu/Data/Car/   
-I do not guarantee perfect results for images other than those test images.  
-For best results, the dimensions of the car should not exceed 150x130px., and it is better to use a test image with a size of 300x250px.. You can use test images of a larger size, but it will decrease during the program to 300x250px., as a result the image will be distorted and it will be difficult to detect the car on it.  
+РЕЗУЛЬТАТЫ:  
+Программа показывает хорошие результаты на тестовой базе: http://cogcomp.cs.illinois.edu/Data/Car/   
+Я не могу гарантировать великолепных результатов на других изображениях.  
+Для лучших результатов размер автомобиля на картинке должен быть не меннее 50x25px. и не должен превышать 200x150px., а также лучше использовать тестовое изображение размером 300x250px.. Вы можете использовать тестовые изображения больших размеров, но в процессе работы программы оно будет уменьшено до 300x250px., в результате чего изображение будет искажено и детектировать автомобиль уже будет сложно.  
+Размер видео не искажается, детектирование происходит на исходном размере.
